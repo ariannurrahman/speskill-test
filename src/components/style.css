@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+table {
+  overflow: scroll;
+}
+
+th td {
+  min-width: 200px;
+}
+
+table td {
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 3px solid #00dbde;
+}
+tr:nth-last-child(2) {
+  border-bottom: 3px solid transparent;
+}
